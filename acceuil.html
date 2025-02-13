@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits - Aura Cosmetics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ffe4e1;
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background-color: #f8d7da;
+            padding: 60px 20px;
+            border-radius: 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            color: #e83e8c;
+            text-align: center;
+        }
+        .hero p {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+        .product-card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            margin-bottom: 30px;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        .product-card img {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .product-card .card-body {
+            text-align: center;
+        }
+        .product-card h5 {
+            font-size: 1.5rem;
+            color: #e83e8c;
+        }
+        .product-card p {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Nos Produits</h1>
+            <p>Découvrez nos produits cosmétiques, créés avec des ingrédients naturels et de haute qualité, pour une peau éclatante et en bonne santé.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-dark">Nos Bestsellers</h2>
+            <div class="row">
+                <!-- Produit 1 -->
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="https://i.pinimg.com/736x/4b/42/11/4b42118357fe17878945a5687fe901e7.jpg" class="card-img-top" alt="Toner">
+                        <div class="card-body">
+                            <h5 class="card-title">Toner Apaisant</h5>
+                            <p class="card-text">Ce toner doux hydrate et équilibre votre peau, vous offrant un teint frais et revitalisé.</p>
+                            <p><strong>Prix : $25.50</strong></p>
+                            <p><span class="text-muted">Réduction de -35%</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="https://i.pinimg.com/736x/bf/e7/f7/bfe7f7f21afa7892f373fff9df616449.jpg" class="card-img-top" alt="Niacin Serum">
+                        <div class="card-body">
+                            <h5 class="card-title">Sérum à la Niacinamide</h5>
+                            <p class="card-text">Un sérum puissant à la niacinamide qui illumine et hydrate la peau, réduisant l'apparence des pores.</p>
+                            <p><strong>Prix : $25.50</strong></p>
+                            <p><span class="text-muted">Réduction de -35%</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 3 -->
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="https://i.pinimg.com/736x/54/d7/88/54d788aa4286c5bd2f252d04ada90284.jpg" class="card-img-top" alt="Crème Hydra Glow">
+                        <div class="card-body">
+                            <h5 class="card-title">Crème Hydra Glow</h5>
+                            <p class="card-text">Une crème hydratante qui nourrit la peau en profondeur tout en apportant un éclat naturel et lumineux.</p>
+                            <p><strong>Prix : $30.00</strong></p>
+                            <p><span class="text-muted">Réduction de -25%</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Aura Cosmetics. Tous droits réservés.</p>
+        <p>Contactez-nous : info@auracosmetics.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
